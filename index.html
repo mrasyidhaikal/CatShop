@@ -20,6 +20,10 @@
 	<link rel="stylesheet" type="text/css" href="css/icon-fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/plugins.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -96,15 +100,104 @@
 			</div>
 		</header>
 		<main id="main">
-			<section class="main-slider">
-				<div class="slide bg-full text-center" style="background-image:url(images/home-bg.jpg);">
-					<div class="caption">
-						<h1>Selamat Datang di<br class="hidden-xs">Dunia Kucing</h1>
-						<h4 style="color: white;">Cat Lovers Sejati, hanya ke Dunia Kucing</h4>
-						<!-- <a href="contact-us.html" class="btn-primary text-uppercase text-center lg-round">contact us</a> -->
+
+
+		
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img class="d-block w-100" src="images/petshop-bg.png" alt="First slide">
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Selamat Datang di<br class="hidden-xs">Dunia Kucing</h1>
+							<h4 style="color: white;">Cat Lovers Sejati, hanya ke Dunia Kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="petshop.html">Pet Shop</a>
+							
+						</div>
+						  </div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="images/grooming-bg.png" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-30%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 55px;">Grooming</h1>
+							<h4 style="color: white;">Grooming Paling Bagus hanya di dunia kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="gallery.html">Gallery</a>
+						</div>
+						  </div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="images/klinik-bg.png" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-30%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Klinik</h1>
+							<h4 style="color: white;">Kucing kamu sakit? yuk ke klinik dunia Kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="klinik.html">Klinik</a>
+						</div>
+						  </div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="images/gallery-bg.png" alt="Third slide">
+			
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Gallery<br> Dunia Kucing</h1>
+							<h4 style="color: white;">Yuk Lihat Aktivitas Di Dunia Kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="gallery.html">Gallery</a>
+						</div>
+						  </div>
+					
 					</div>
-				</div>
-			</section>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="images/blog-bg.png" alt="Third slide">
+			
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Blog Dunia Kucing</h1>
+							<h4 style="color: white;">Dunia Kucing Punya Banyak Tips<br class="hidden-xs">untuk merawat kucing kamu lohh</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="blog.html">Blog</a>
+						</div>
+						  </div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="images/contact-bg.png" alt="Third slide">
+			
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Kontak dan Alamat<br class="hidden-xs"> Dunia Kucing</h1>
+							<h4 style="color: white;">yuk bawa kucing kamu ke dunia kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="contact-us.html">Contact Us</a>
+						</div>
+						  </div>
+					</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+
+
+		
 			
 			<section class="shop-sec container">
 				<div class="row">
@@ -163,5 +256,10 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/jquery.main.js"></script>
+	<script>
+		$('.carousel').carousel({
+  interval: 2000
+})
+	</script>
 </body>
 </html>
