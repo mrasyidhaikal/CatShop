@@ -2805,7 +2805,11 @@ a:hover, a:focus, a.active {
   font-size: 26px;
   color: #010483;
 }
-
+.details .content h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #010483;
+}
 .details .content ul {
   list-style: none;
   padding: 0;
@@ -2816,7 +2820,7 @@ a:hover, a:focus, a.active {
 }
 
 .details .content ul i {
-  font-size: 20px;
+  font-size: 23px;
   padding-right: 4px;
   color: #1acc8d;
 }
@@ -2825,4 +2829,16 @@ a:hover, a:focus, a.active {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 601px) {
+  .caption h1 {
+    font-size: 50px;
+    color: #4374ba;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caption h1 {
+    font: bold 15px 'Nunito', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
 
