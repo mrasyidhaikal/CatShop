@@ -1,0 +1,12 @@
+.container-kartu{
+    display:flex;
+    margin:20px auto;
+    align-content:center;
+    flex-wrap:wrap;
+    width:80rem;
+}
+
+.kartu{
+    display:flex;
+    margin-top:10px;
+}
