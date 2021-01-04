@@ -20,8 +20,15 @@
 	<link rel="stylesheet" type="text/css" href="css/icon-fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/plugins.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link href="css/vendors/icofont/icofont.min.css" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 	<div id="wrapper">
 		<header id="header">
@@ -44,14 +51,14 @@
 								<a href="mailto:petty@support.com" class="icon pull-left"><i class="icon-message"></i></a>
 								<div class="align-left pull-left hidden-xs">
 									<strong>Mail us:</strong>
-									<a href="mailto:petty@support.com">petty@support.com</a>
+									<a href="mailto:petty@support.com">dk@duniakucing.id</a>
 								</div>
 							</li>
 							<li>
 								<a href="https://api.whatsapp.com/send/?phone=628117080222&text&app_absent=0" class="icon pull-left"><i class="fa fa-whatsapp"></i></a>
 								<div class="align-left pull-left hidden-xs">
 									<strong>Message us:</strong>
-									<a href="https://api.whatsapp.com/send/?phone=628117080222&text&app_absent=0">(+62)8117080222</a>
+									<a href="https://api.whatsapp.com/send/?phone=628117080222&text&app_absent=0">(+62)811 7080 222</a>
 								</div>
 							</li>
 						</ul>
@@ -95,581 +102,712 @@
 					</div>
 				</div>
 			</div>
-			</header>
+		</header>
 		<main id="main">
-			<section class="hero-sec bg-full" style="background-image:url(images/grooming-bg.png);">
-				<div class="caption">
-					<h1 class="heading text-center">Grooming</h1>
-				</div>
-			</section>
-			<div class="container">
-				<div class="col">
-					<div class="row">
-			<br>
-			<h1 style="text-align:center;">GROOMING</h1>
-			<br>
-			<h3>	
-				Apa itu Grooming ?
-			</h3>
+
+
+		
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img class="d-block w-100" src="images/petshop-bg.png" alt="First slide">
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Selamat Datang di<br class="hidden-xs">Dunia Kucing</h1>
+							<h4 style="color: white;">Cat Lovers Sejati, hanya ke Dunia Kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="petshop.html">Pet Shop</a>
+							
+						</div>
+						  </div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="images/grooming-bg.png" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-30%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 55px;">Grooming</h1>
+							<h4 style="color: white;">Grooming Paling Bagus hanya di dunia kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="gallery.html">Gallery</a>
+						</div>
+						  </div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="images/klinik-bg.png" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-30%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Klinik</h1>
+							<h4 style="color: white;">Kucing kamu sakit? yuk ke klinik dunia Kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="klinik.html">Klinik</a>
+						</div>
+						  </div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="d-block w-100" src="images/gallery-bg.png" alt="Third slide">
 			
-			<p style="text-align:justify;">
-			Tau Kah Cat Lovers apa itu GROOMER? Groomers adalah seorang pakar dibidangnya dalam hal melakukan perawatan terhadap hewan untuk menyelesaikan masalah, bulu dan warna pada kucing dengan sabar & ketenangan. Dalam kondisi apapun dan situasi apapun seorang groomers harus mempu menyelesaikan masalah perawatan kucing tanpa MENGELUH & KASAR.
-			”Pernahkah Cat lovers merasa semakin sering GROOMING tapi bulu kucing nya semakin tipis dan rusak atau bahkan kalo terkena jamur harus di botakin?. Kebanyakan Pet shop hanya Pemiliknya saja yang ikut work shop atau seminar Grooming. Tapi di Dunia Kucing, dari Pemilik sampai dengan pekerjanya harus ikut Pelatihan 12 hari bersertifikasi dari Thailand yang sudah terkenal dengan kemampuan pengembangan hewan di mata Dunia.
-			</p>
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Gallery<br> Dunia Kucing</h1>
+							<h4 style="color: white;">Yuk Lihat Aktivitas Di Dunia Kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="gallery.html">Gallery</a>
+						</div>
+						  </div>
+					
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="images/blog-bg.png" alt="Third slide">
 			
-			<h3>	
-				Manfaat Grooming
-			</h3>
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Blog Dunia Kucing</h1>
+							<h4 style="color: white;">Dunia Kucing Punya Banyak Tips<br class="hidden-xs">untuk merawat kucing kamu lohh</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="blog.html">Blog</a>
+						</div>
+						  </div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="images/contact-bg.png" alt="Third slide">
 			
-			<p style="text-align:justify;">
-				<ul>
-					<li>Mengurangi Bulu Rontok</li>
-					<li>Menjaga Kebersihan Kucing</li>
-					<li>Pemeriksaan Kesehatan Kucing</li>
-					<li>Mencegah Penyakit Masuk ke Tubuh</li>
-					<li>Menjaga Kondisi Bulu dan Kulit Tetap Baik</li>
-					<li>Memperkuat Ikatan antara Kucing dan pemiliknya</li>
-				</ul>
-			</p>
-
-			<h3>	
-				Kelebihan Grooming di Dunia Kucing
-			</h3>
-			
-			<p style="text-align:justify;">
-				Para groomers di klinik dunia kucing sudah memiliki sertifikat untuk melakukan tindakan grooming kepada kucing. untuk mendapatkan sertifikat ini dibutuhkan waktu 12 hari di sertifikat ini dimiliki mulai dari owner dunia kucing hingga ke pekerjanya. Jadi sampai sini sudah paham kenapa dunia kucing ini menjadi pilihan terbaik untuk kucing kesayangan kamu ? . 
-			</p>
-
-			<h3>	
-				Prosedur Grooming dunia kucing
-			</h3>
-			
-			<p style="text-align:justify;">
-				<ul>
-					<li>Kucing dilarang diikat dengan harness kasar</li>
-					<li>Shampoo yang digunakan kualitas Premium </li>
-					<li>Racikan Khusus</li>
-					<li>Minimal Shampo yang di gunakan 4-6 botol jenis shampoo yang berbeda-beda dengan tujuan khusus (buatan USA).</li>
-					<li>Suhu air yang sangat di jaga dan blower dingin</li>
-					<li>Pembersih telinga berstandard Medis </li>
-					<li>Pembersih muka, mata & hidung khusus</li>
-					<li>Ruangan Grooming Steril, nyaman & dingin</li>
-					<li>Grooming Tools berkualitas.</li>
-				</ul>
-			</p>
-		</div>
-	</div>
-</div>
-			<hr>
-			<h1 style="text-align:center;">Layanan Grooming</h1>
-			<br>
-			<br>
-
-			
-			<div class="container-kartu">
-				<div class="row">
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">DOMESTIK KITTEN-50K PERAWATAN YANG DIDAPAT:</h5>
-								<p><ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pelembut & kesehatan (1 botol)</li>
-									<li>Pengeringan pengerjaan 20 menit</li>
-									<br>
-									<br>
-									<br>
-								</ul></p>
-							</div>
+						<div class="carousel-caption d-none d-md-block text-center"  style="top: 50%;
+						transform: translateY(-50%);">
+						<div class="caption">
+							<h1 class="p-heading text-bold" style="color: #4374ba; font-size: 50px;">Kontak dan Alamat<br class="hidden-xs"> Dunia Kucing</h1>
+							<h4 style="color: white;">yuk bawa kucing kamu ke dunia kucing</h4>
+							<a class="btn-primary text-center text-uppercase lg-round" href="contact-us.html">Contact Us</a>
 						</div>
+						  </div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">DOMESTIK DEWASA-60K PERAWATAN YANG DIDAPAT</h5>
-								<p><ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pelembut & kesehatan (1 botol)</li>
-									<li>pengerjaan 30-50 menit</li>
-									<br>
-									<br>
-									<br>
-									<br>
-								</ul></p>
-							</div>
-						</div>
 					</div>
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS KITTEN-60K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak (1 botol)</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Estimasi pengerjaan 20 menit (terhitung mulai grooming)</li>
-									<br>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+
+                  <section id="details" class="details">
+                    <div class="container">
+              
+                      <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h3>Grooming</h3>
+                          <p class="font-italic">
+                           
+Grooming
+apa itu grooming ?
+
+Tau Kah Cat Lovers apa itu GROOMER? Groomers adalah seorang pakar dibidangnya dalam hal melakukan perawatan terhadap hewan untuk menyelesaikan masalah, bulu dan warna pada kucing dengan sabar & ketenangan. Dalam kondisi apapun dan situasi apapun seorang groomers harus mempu menyelesaikan masalah perawatan kucing tanpa MENGELUH & KASAR.
+”Pernahkah Cat lovers merasa semakin sering GROOMING tapi bulu kucing nya semakin tipis dan rusak atau bahkan kalo terkena jamur harus di botakin?. Kebanyakan Pet shop hanya Pemiliknya saja yang ikut work shop atau seminar Grooming. Tapi di Dunia Kucing, dari Pemilik sampai dengan pekerjanya harus ikut Pelatihan 12 hari bersertifikasi dari Thailand yang sudah terkenal dengan kemampuan pengembangan hewan di mata Dunia.
+
+						  </p>
+                        </div>
+                      </div>
+              
+                      <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+						  <h3>Manfaat Grooming</h3>
+						  <p>  
+							  <ul>
+								  <li><i class="icofont-check"></i>Mengurangi Bulu Rontok</li>
+								  <li><i class="icofont-check"></i>Menjaga Kebersihan Kucing</li>
+								  <li><i class="icofont-check"></i>Pemeriksaan Kesehatan Kucing</li>
+								  <li><i class="icofont-check"></i>Mencegah Penyakit Masuk ke Tubuh</li>
+								  <li><i class="icofont-check"></i>Menjaga Kondisi Bulu dan Kulit Tetap Baik</li>
+								  <li><i class="icofont-check"></i>Memperkuat Ikatan antara Kucing dan pemiliknya</li>
 								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS DEWASA-80K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak (1 botol)</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Estimasi pengerjaan 40-65 menit (terhitung mulai grooming)</li>
-									
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					</div>
-					</div>
+							</p>
+                        </div>
+                      </div>
+              
+                      <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5" data-aos="fade-up">
+                          <h3>Kelebihan Grooming di Dunia Kucing</h3>
+                          <p>
+							Para groomers di klinik dunia kucing sudah memiliki sertifikat untuk melakukan tindakan grooming kepada kucing. untuk mendapatkan sertifikat ini dibutuhkan waktu 12 hari di sertifikat ini dimiliki mulai dari owner dunia kucing hingga ke pekerjanya. Jadi sampai sini sudah paham kenapa dunia kucing ini menjadi pilihan terbaik untuk kucing kesayangan kamu ? . 
+						  </p>
+                        </div>
+                      </div>
+              
+                      <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+                          <h3>Prosedur grooming dunia kucing</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Kucing dilarang diikat dengan harness, kasar</li>
+                            <li><i class="icofont-check"></i>Shampoo yang digunakan kualitas Premium </li>
+                            <li><i class="icofont-check"></i>Racikan Khusus</li>
+                            <li><i class="icofont-check"></i>Minimal Shampo yang di gunakan 4 - 6 botol jenis shampoo yang berbeda-beda dengan tujuan khusus (buatan USA).</li>
+                            <li><i class="icofont-check"></i>Suhu air yang sangat di jaga dan blower dingin</li>
+                            <li><i class="icofont-check"></i>Pembersih telinga berstandard Medis</li>
+                            <li><i class="icofont-check"></i>Pembersih muka, mata & hidung khusus</li>
+                            <li><i class="icofont-check"></i>Ruangan Grooming Steril, nyaman & dingin</li>
+                            <li><i class="icofont-check"></i>Grooming Tools berkualitas.</li>
+                          </ul>
+                        </div>
+					  </div>
+					  
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming hemat dunia kucing
+						  </h4>
+							
+                          <h3>
+							DOMESTIK DEWASA - 60K perawatan yang didapat: 
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i> Shampoo pengangkat minyak (1 botol)</li>
+								<li><i class="icofont-check"></i>Shampoo pelembut & kesehatan (1 botol)</li>
+								<li><i class="icofont-check">
+									</i>
+									pengeringan pengerjaan 20 menit
+									</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
+					  
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							layanan grooming hemat dunia kucing
+							</h4>
+                          <h3>DOMESTIK DEWASA - 60K perawatan yang didapat: </h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Shampoo pengangkat minyak (1 botol)</li>
+                            <li><i class="icofont-check"></i>Shampoo pelembut & kesehatan (1 botol)</li>
+                            <li><i class="icofont-check"></i>pengerjaan 30-50 menit</li>
+                          </ul>
+                        </div>
+					  </div>
 
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming hemat dunia kucing
+						  </h4>
+							
+                          <h3>
+							RAS KITTEN - 60K perawatan yang didapat: 
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak (1 botol)</li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu (1 botol) pengerjaan</li>
+								<li><i class="icofont-check">
+									</i>
+									estimasi pengerjaan 20 menit (terhitung mulai grooming)
+									</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							layanan grooming hemat dunia kucing
+							</h4>
+                          <h3>RAS DEWASA - 80K perawatan yang didapat: </h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Shampoo pengangkat minyak (1 botol)</li>
+                            <li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu (1 botol)</li>
+                            <li><i class="icofont-check"></i>Pengerigan</li>
+                            <li><i class="icofont-check"></i>pengerjaan 40-65 menit</li>
+                          </ul>
+                        </div>
+					  </div>
 
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming BASIC
+						  </h4>
+							
+                          <h3>
+							DOMESTIK KITTEN 60K perawatan yang didapat:
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak (1 botol)</li>
+								<li><i class="icofont-check"></i>Shampoo pelembut & kesehatan 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu (1 botol) pengerjaan</li>
+								<li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol</li>
+								<li><i class="icofont-check"></i>Pengeringan</li>
+								<li><i class="icofont-check">
+									</i>
+									estimasi pengerjaan 45 menit (terhitung mulai grooming)
+									</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
-					<hr>
-					<div class="container-kartu">
-						<div class="row">
-							<div class="col">
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							layanan grooming BASIC 
+							</h4>
+                          <h3>DOMESTIK DEWASA 80K perawatan yang didapat:</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Shampoo pengangkat minyak (1 botol)</li>
+                            <li><i class="icofont-check"></i>Shampoo pelembut & kesehatan 1 botol </li>
+                            <li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu (1 botol)</li>
+                            <li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol </li>
+                            <li><i class="icofont-check"></i>Pengeringan</li>
+                            <li><i class="icofont-check"></i>estimasi pengerjaan 45 - 60 menit (terhitung mulai grooming)</li>
+                          </ul>
+                        </div>
+					  </div>
 
-				
-					<h1 style="text-align:center;">Layanan Grooming Basic</h1>
-					<br>
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">DOMESTIK KITTEN 60K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak (1 botol)</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol</li>
-									<li>Pengeringan</li>
-									<li>Estimasi pengerjaan 45 menit (terhitung mulai grooming)</li>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">DOMESTIK DEWASA 80K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak (1 botol)</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol</li>
-									<li>Pengeringan</li>
-									<li>Estimasi pengerjaan 40-60 menit (terhitung mulai grooming)</li>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS KITTEN-DRY GROOMING 80K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak (1 botol)</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol </li>
-									<li>Pengeringan</li>
-									<li>Estimasi pengerjaan 45 menit (terhitung mulai grooming)</li>
-									<br>
-								
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS DEWASA-DRY GROOMING 80K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak (2 botol)</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol</li>
-									<li>pengeringan</li>
-									<li>Estimasi pengerjaan 45-60 menit (terhitung mulai grooming)</li>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">DOMESTIK KITTEN - DRY GROOMING 60K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Powder 3x proses</li>
-									<li>Pengeringan 3x proses</li>
-									<li>Estimasi pengerjaan 45 menit (terhitung mulai grooming)</li>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming BASIC
+						  </h4>
+							
+                          <h3>
+							RAS KITTEN - DRY GROOMING 80K perawatan yang didapat: 
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak (1 botol)</li>
+								<li><i class="icofont-check"></i>Shampoo pelembut & kesehatan 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu (1 botol) pengerjaan</li>
+								<li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol</li>
+								<li><i class="icofont-check"></i>Pengeringan</li>
+								<li><i class="icofont-check">
+									</i>
+									estimasi pengerjaan 45 menit (terhitung mulai grooming)
+									</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">DOMESTIK DEWASA - DRY GROOMING 80K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Powder 3x proses</li>
-									<li>Pengeringan 3x proses</li>
-									<li>Estimasi pengerjaan 45/60 menit (terhitung mulai grooming)</li>
-									<br>
-								
-			
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							layanan grooming BASIC 
+							</h4>
+                          <h3>RAS DEWASA - DRY GROOMING 100K perawatan yang didapat:</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Shampoo pengangkat minyak - 2 botol </li>
+                            <li><i class="icofont-check"></i>Shampoo pelembut & kesehatan- 1 botol </li>
+                            <li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu (1 botol)</li>
+                            <li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol </li>
+                            <li><i class="icofont-check"></i>Pengeringan</li>
+                            <li><i class="icofont-check"></i>estimasi pengerjaan 45 - 60 menit (terhitung mulai grooming)</li>
+                          </ul>
+                        </div>
+					  </div>
 
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS KITTEN - DRY GROOMING 80K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Powder 3x proses</li>
-									<li>Pengeringan 3x proses</li>
-									<li>Estimasi pengerjaan 45 (terhitung mulai grooming)</li>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming BASIC
+						  </h4>
+							
+                          <h3>
+							DOMESTIK KITTEN - DRY GROOMING 60K perawatan yang didapat:
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Powder 3x proses </li>
+								<li><i class="icofont-check"></i>Pengeringan 3x proses</li>
+								<li><i class="icofont-check">
+									</i>
+									estimasi pengerjaan 45 menit (terhitung mulai grooming)
+									</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS DEWASA - DRY GROOMING 100K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Powder 3x proses</li>
-									<li>Pengeringan 3x proses</li>
-									<li>Estimasi pengerjaan 45/60 (terhitung mulai grooming)</li>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							layanan grooming BASIC 
+							</h4>
+                          <h3>DOMESTIK DEWASA - DRY GROOMING 80K perawatan yang didapat:</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Powder - 3x proses </li>
+                            <li><i class="icofont-check"></i>Pengeringan - 3x proses</li>
+                            <li><i class="icofont-check"></i>estimasi pengerjaan 45 / 60 menit (terhitung mulai grooming)</li>
+                          </ul>
+                        </div>
+					  </div>
 
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS PERAPIAN BULU 300K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengangkat minyak 2 botol</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai bulu 1 botol</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol</li>
-									<li>Pengeringan</li>
-									<li>Perapian bulu</li>
-									<li>Estimasi pengerjaan 45/60 (terhitung mulai grooming)</li>
-									<br>
-									<br>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					</div>
-					
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming BASIC
+						  </h4>
+							
+                          <h3>
+							RAS KITTEN - DRY GROOMING 80K perawatan yang didapa
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Powder 3x proses </li>
+								<li><i class="icofont-check"></i>Pengeringan 3x proses</li>
+								<li><i class="icofont-check"></i>estimasi pengerjaan 45 menit (terhitung mulai grooming)</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
-					<div class="container-kartu">
-						<div class="row">
-							<div class="col">
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							layanan grooming BASIC 
+							</h4>
+                          <h3>RAS DEWASA - DRY GROOMING 100K perawatan yang didapat:</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Powder - 3x proses </li>
+                            <li><i class="icofont-check"></i>Pengeringan - 3x proses</li>
+                            <li><i class="icofont-check"></i>estimasi pengerjaan 45 / 60 menit (terhitung mulai grooming)</li>
+                          </ul>
+                        </div>
+					  </div>
 
-				
-					<h1 style="text-align:center;">Layanan Grooming Premium Dunia Kucing</h1>
-					<br>
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS STAIN REMOVER 200K</h5>
-								<p>
-									Grooming khusus untuk menghilangkan noda atau bercak pada bulu dengan menggunakan cairan khusus dan aman untuk hewan
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming BASIC
+						  </h4>
+							
+                          <h3>
+							RAS DEWASA PERAPIAN BULU 300K perawatan yang didapat:
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak 2 botol </li>
+								<li><i class="icofont-check"></i>Shampoo pelembut & kesehatan 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu 1 botol </li>
+								<li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol </li>
+								<li><i class="icofont-check"></i>Pengeringan</li>
+								<li><i class="icofont-check"></i>PERAPIAN BULU</li>
+								<li><i class="icofont-check"></i>estimasi pengerjaan 60 - 90 menit (terhitung mulai grooming)</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							
+layanan grooming
+premium dunia kucing
 
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Powder 3x Proses</li>
-									<li>Pengeringan 3x proses</li>
-									<li>Estimasi pengerjaan 60-90 menit (terhitung mulai grooming)</li>
-									<br>
-									<br>
-									<br>
-									<br>
-									<br>
-									<br>
-									<br>
-									<br>
-									
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">RAS DEGREASING KITTEN </h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Pengolesan gel GEL degreasing</li>
-									<li>Penyerapan gel / cairan remover</li>
-									<li>Shampoo perangkat minyak - 4 botol</li>
-									<li>Shampoo pelembut & kesehatan - 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Buku - 1 botol</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol</li>
-									<li>Estimasi pengerjaan 60-150 menit (terhitung mulai grooming)</li>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">HOT OIL MASSAGE 250K</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Pengolesan cairan Hot Oil 2 ampul</li>
-									<li>Penyerapan gel / cairan remover</li>
-									<li>Shampoo pengangkat minyak -4 botol</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol </li>
-									<li>Estimasi pengerjaan 60-120 menit (terhitung mulai grooming)</li>
-									<br>
-								
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">CONDITIONING 300K</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo penyerap gel / cairan remover</li>
-									<li>Shampoo pengangkat minyak (4 botol)</li>
-									<li>Shampoo pelembut & kesehatan 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu (1 botol)</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) 1 botol</li>
-									<li>pengeringan</li>
-									<li>Estimasi pengerjaan 60-150 menit (terhitung mulai grooming)</li>
-									<br>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">HAIR CUTZ LION & EXOTIC STYLING</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Pengolesan Gel Degreasing</li> 
-									<li>Shampoo penyerapan gel / cairan remover</li>
-									<li>Shampoo pengangkat minyak - 4 botol</li>
-									<li>Shampoo pelembut & kesehatan - 1 botol</li>
-									<li>Shampoo pengembang, peringan dan bulu - 1 botol</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) - 1 botol</li>
-									<li>Estimasi pengerjaan 2.5 jam (terhitung mulai grooming)</li>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
+							</h4>
+						  <h3>RAS STAIN REMOVER 200K</h3>
+						  <p>Grooming khusus untuk menghilangkan noda atau bercak pada bulu dengan menggunakan cairan khusus dan aman untuk hewan
 
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">CAT SHOW GROOMING 600K</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Proses pengolesan gel GEL degreasing 30-60 menit</li>
-									<li>Proses penyerapan gel / cairan remover 10 menit</li>
-									<li>Shampoo pengangkat minyak - 4 botol</li>
-									<li>Shampoo KHUSUS SHOW - 1 botol </li>
-									<li>Shampoo conditioner KHUSUS SHOW - 1 botol</li>
-									<li>Shampoo pengembang, peringan dan pengurai Bulu - 1 botol</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) -1 botol</li>
-									<li>Pengeringan</li>
-									<li>Estimasi pengerjaan 200-300 menit (terhitung mulai grooming)</li>
-									<br>
-								
-			
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
+							RAS STAIN REMOVER perawatan yg didapat:</p>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Powder - 3x proses </li>
+                            <li><i class="icofont-check"></i>Pengeringan - 3x proses</li>
+                            <li><i class="icofont-check"></i>estimasi pengerjaan 60-90 </li>
+                          </ul>
+                        </div>
+					  </div>
 
-					<div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-						<div class="card" style="font-size:16px;">
-							<img class="card-img-top" src="https://picsum.photos/200/150/?random">
-							<div class="card-block">
-								<h5 class="text-bold">SEMI-CAT SHOW- 350K PERAWATAN YANG DIDAPAT</h5>
-								<p>
-									<ul>
-									<li>Perawatan Telinga</li>
-									<li>Perawatan Muka</li>
-									<li>Perawatan Kuku</li>
-									<li>Shampoo pengankat minyak - 2 botol</li>
-									<li>Shampoo KHUSUS Show - 1 botol</li>
-									<li>Shampoo conditioner KHUSUS SHOW - 1 botol</li>
-									<li>Shampoo pengembang, peringan, dan pengurai bulu - 1 botol</li>
-									<li>Coating bulu & kulit (membantu mencegah jamur & kutu) - 1 botol</li>
-									<li>Pengeringan</li>
-									<li>Estimasi pengerjaan 200 menit (terhitung mulai grooming)</li>
-									<br>
-									<br>
-									<br>
-									<br>
-								</ul>
-								</p>
-							</div>
-						</div>
-					</div>
-					</div>
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming
+premium dunia kucing
+						  </h4>
+							
+                          <h3>
+							RAS DEGREASING - KITTEN 185K & DEWASA 250K
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Pengolesan gel GEL degreasing</li>
+								<li><i class="icofont-check"></i>Penyerapan gel / cairan remover</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak - 4 botol </li>
+								<li><i class="icofont-check"></i>Shampoo pelembut & kesehatan 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu 1 botol </li>
+								<li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol </li>
+								<li><i class="icofont-check"></i>estimasi pengerjaan 60 - 150 menit </li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
-					
-				
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							
+layanan grooming
+premium dunia kucing
 
+							</h4>
+						  <h3>HOT OIL MASSAGE 250K</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Pengolesan cairan Hot Oil 2 ampul</li>
+                            <li><i class="icofont-check"></i>Penyerapan gel / cairan remover</li>
+                            <li><i class="icofont-check"></i>Shampoo pengangkat minyak - 4 botol </li>
+                            <li><i class="icofont-check"></i>Shampoo pelembut & kesehatan - 1 botol</li>
+                            <li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu - 1 botol </li>
+                            <li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) - 1 botol </li>
+                            <li><i class="icofont-check"></i>Estimasi Pengerjaan 60 - 120 Menit </li>
+                          </ul>
+                        </div>
+					  </div>
 
-				</div>
-			</div>
-	
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming
+premium dunia kucing
+						  </h4>
+							
+                          <h3>
+							CONDITIONING 300K
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>Pengolesan shampoo conditioner</li>
+								<li><i class="icofont-check"></i>Penyerapan gel / cairan remover</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak - 4 botol </li>
+								<li><i class="icofont-check"></i>Shampoo pelembut & kesehatan 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu 1 botol </li>
+								<li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol </li>
+								<li><i class="icofont-check"></i>estimasi pengerjaan 60 - 150 menit </li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
 
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							
+layanan grooming
+premium dunia kucing
 
+							</h4>
+						  <h3>
+							HAIR CUTZ
+							LION & EXOTIC STYLING
+							</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>Pengolesan Gel Degreasing</li>
+                            <li><i class="icofont-check"></i>Penyerapan gel / cairan remover</li>
+                            <li><i class="icofont-check"></i>Shampoo pengangkat minyak - 4 botol </li>
+                            <li><i class="icofont-check"></i>Shampoo pelembut & kesehatan - 1 botol</li>
+                            <li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu - 1 botol </li>
+                            <li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) - 1 botol </li>
+                            <li><i class="icofont-check"></i>pengerjaan2.5 jam</li>
+                          </ul>
+                        </div>
+					  </div>
 
-	
-					
+					  <div class="row content">
+                        <div class="col-md-4" data-aos="fade-right">
+                          <img src="assets/img/details-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-4" data-aos="fade-up">
+                          <h4>
+							layanan grooming
+premium dunia kucing
+						  </h4>
+							
+                          <h3>
+							CAT SHOW GROOMING 600K
+							</h3>
+                          <p class="font-italic">
+							<ul>
+								<li><i class="icofont-check"></i>Perawatan Telinga</li>
+								<li><i class="icofont-check"></i>Perawatan muka</li>
+								<li><i class="icofont-check"></i>Perawatan kuku</li>
+								<li><i class="icofont-check"></i>proses pengolesan gel GEL degreasing 30 - 60 menit</li>
+								<li><i class="icofont-check"></i>proses peyerapan gel / cairan remover 10 menit</li>
+								<li><i class="icofont-check"></i>Shampoo pengangkat minyak - 4 botol </li>
+								<li><i class="icofont-check"></i>Shampoo KHUSUS Show - 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo conditioner KHUSUS SHOW - 1 botol </li>
+								<li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu 1 botol </li>
+								<li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) 1 botol </li>
+								<li><i class="icofont-check"></i>estimasi pengerjaan 200 - 300 menit (terhitung mulai grooming)</li>
+							</ul>
+						  </p>
+                        </div>
+					  </div>
+
+					  <div class="row content">
+                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+                          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+							<h4>
+							
+layanan grooming
+premium dunia kucing
+
+							</h4>
+						  <h3>
+							SEMI-CAT SHOW - 350K perawatan yg didapat: 
+							</h3>
+                          <ul>
+                            <li><i class="icofont-check"></i>Perawatan Telinga</li>
+                            <li><i class="icofont-check"></i>Perawatan muka</li>
+                            <li><i class="icofont-check"></i>Perawatan kuku</li>
+                            <li><i class="icofont-check"></i>proses pengolesan gel GEL degreasing 30 - 60 menit</li>
+                            <li><i class="icofont-check"></i>proses peyerapan gel / cairan remover 10 menit</li>
+							<li><i class="icofont-check"></i>Shampoo pengangkat minyak - 4 botol </li>
+							<li><i class="icofont-check"></i>Shampoo KHUSUS Show - 1 botol </li>
+                            <li><i class="icofont-check"></i>Shampo conditioner KHUSUS SHOW - 1 botol </li>
+                            <li><i class="icofont-check"></i>Shampo pengembang, peringan dan pengurai Bulu - 1 botol </li>
+                            <li><i class="icofont-check"></i>Coating bulu & kulit (membantu mencegah jamur & Kutu) - 1 botol </li>
+                            <li><i class="icofont-check"></i> estimasi pengerjaan 200 - 300 menit (terhitung mulai grooming)</li>
+							
+                          </ul>
+                        </div>
+					  </div>
+					  
+              
+                    </div>
+                  </section><!-- End Details Section -->
+		
 	
 		</main>
 		<footer id="footer">
@@ -677,48 +815,30 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-4 abt-txt">
 						<div class="footer-logo">
-							<a href="#"><img src="images/footer-logo.png" alt="Pet Shop" class="img-responsive"></a>
+							<a href="#"><img src="images/logo.png" alt="Pet Shop" class="img-responsive"></a>
 						</div>
-						<p>It is a long established fact that a reader <br class="hidden-xs">distracted by the readable content</p>
+						<p>Cat Lovers Sejati<br class="hidden-xs">hanya ke Dunia Kucing</p>
+						
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<h3>Contact us</h3>
 						<ul class="contact-list list-unstyled">
-							<li><span class="icon"><i class="fa fa-map-signs" aria-hidden="true"></i></span> No: 801, petty shop, Australia.</li>
-							<li><a href="mailto:pettyshop@mail.com"><span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>pettyshop@mail.com</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span> (+23) 900 8990 000 </a></li>
+							<li><a href="https://g.page/DuniaKucing?share" target="_blank"><span class="icon"><i class="fa fa-map-signs" aria-hidden="true"></i></span>Perum. Anggrek Sari Cluster Alexandria Ruko Alexandria B8-20</a></li>
+							<li><a href="mailto:dk@duniakucing.id"><span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>dk@duniakucing.id</a></li>
+							<li><a href="https://api.whatsapp.com/send/?phone=628117080222&text&app_absent=0" target="_blank"><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span> (+62) 811 7080 222 </a></li>
 						</ul>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-2">
+					<div class="col-xs-12 col-sm-12 col-md-2">
 						<h3>Information</h3>
 						<ul class="info-list list-unstyled">
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Adoption</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Active Dogs</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Daycare</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Dog Training</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Helpcare</a></li>
+							<li><a href="grooming.html"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Grooming</a></li>
+							<li><a href="klinik.html"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Klinik</a></li>
+							<li><a href="petshop.html"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Shop</a></li>
+							<li><a href="gallery.html"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Gallery</a></li>
+							<li><a href="blog.html"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Blog</a></li>
 						</ul>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<h3>Instagram</h3>
-						<ul class="insta-list list-unstyled">
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-						</ul>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<h3>Newsletter</h3>
-						<div class="newsletter">
-							<p>It is a long established fact that a by <br class="hidden-xs">the readable content</p>
-							<form class="newsletter-form" action="#">
-								<fieldset>
-									<input class="form-control" placeholder="Email" type="email">
-									<button class="submit-btn round" type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-								</fieldset>
-							</form>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</footer>
@@ -726,5 +846,10 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/jquery.main.js"></script>
+	<script>
+		$('.carousel').carousel({
+  interval: 2000
+})
+	</script>
 </body>
 </html>
